@@ -171,11 +171,14 @@ class Drawer:
 
             escapeSpeedText = self.font2.render(f"Escape Speed: {escapeSpeed:,.3f}km/s", True, (255, 255, 255))
             self.screen.blit(escapeSpeedText, (WINDOW_WIDTH - escapeSpeedText.get_width(), 92.5))
-            kineticEnergyText = self.font2.render(f"K.E.: {kineticEnergy:,.1f}J", True, (255, 255, 255))
+            kineticEnergyText = self.font2.render(f"K.E.: {kineticEnergy/1000:,.1f}J", True, (255, 255, 255))
             self.screen.blit(kineticEnergyText, (WINDOW_WIDTH - kineticEnergyText.get_width(), WINDOW_HEIGHT - 62.5))
 
             potentialEnergyText = self.font2.render(f"P.E.: {potentialEnergy:,.1f}J", True, (255, 255, 255))
             self.screen.blit(potentialEnergyText, (WINDOW_WIDTH - potentialEnergyText.get_width(), WINDOW_HEIGHT - 32.5))
+
+            totalEnergyText = self.font2.render(f"Total energy: {kineticEnergy / 1000 + potentialEnergy:,.1f}J", True, (255, 255, 255))
+            self.screen.blit(totalEnergyText, (WINDOW_WIDTH - totalEnergyText.get_width(), WINDOW_HEIGHT - 92.5))
 
         status = ""
         if self.rocket.currentSpeed > escapeSpeed: status = "Escape"
