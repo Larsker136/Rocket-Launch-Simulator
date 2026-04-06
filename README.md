@@ -22,6 +22,16 @@ This project helps visualize how initial velocity affects orbital motion.
 - Real-time trajectory visualization
 - Vector and distance display options
 - Interactive control of initial conditions
+- Live physics data display:
+  - Potential Energy (P.E.)
+  - Kinetic Energy (K.E.)
+  - Distance from Earth
+  - Current speed
+  - Escape velocity
+- Status detection system:
+  - `Crash` (collision with Earth)
+  - `Orbit` (bounded trajectory)
+  - `Escape` (leaving Earth's gravity)
 
 ## What I Learned
 -  Without additional thrust after launch, achieving a stable orbit is difficult  
