@@ -38,4 +38,6 @@ This project helps visualize how initial velocity affects orbital motion.
 -  Most trajectories naturally form elliptical orbits  
 -  Initial velocity (magnitude and direction) is critical for orbit formation
 -  Escape velocity differs in different distance from earth
-  - The escape velocity on the surface of earth is 11.25km/s
+-  The escape velocity on the surface of earth is 11.25km/s
+-  The total energy (sum of kinetic energy and potential energy) stays constant in orbit
+-  When the speed exceeds escape speed, the total energy turns postive. (since, |K.E.| > |P.E.|)
