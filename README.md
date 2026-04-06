@@ -34,6 +34,8 @@ This project helps visualize how initial velocity affects orbital motion.
   - `Escape` (leaving Earth's gravity)
 
 ## What I Learned
--  Without additional thrust after launch, achieving a stable orbit is difficult  
+-  Without additional thrust after launch, achieving a stable orbit is impossible  
 -  Most trajectories naturally form elliptical orbits  
--  Initial velocity (magnitude and direction) is critical for orbit formation  
+-  Initial velocity (magnitude and direction) is critical for orbit formation
+-  Escape velocity differs in different distance from earth
+  - The escape velocity on the surface of earth is 11.25km/s
