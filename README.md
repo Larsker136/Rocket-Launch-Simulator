@@ -42,5 +42,7 @@ This project helps visualize how initial velocity affects orbital motion.
 -  The total energy (sum of kinetic energy and potential energy) stays constant in orbit
 -  When the speed exceeds escape speed, the total energy turns postive. (since, |K.E.| > |P.E.|)
 
-![Uploading 스크린샷 2026-07-27 15.30.02.jpg…]()
+<br>
+<img width="1990" height="1570" alt="스크린샷 2026-07-27 15 30 02" src="https://github.com/user-attachments/assets/7c859bd0-f950-4367-b11d-c5528a95ee20" />
+
 
